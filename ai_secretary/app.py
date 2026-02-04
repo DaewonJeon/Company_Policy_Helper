@@ -29,17 +29,17 @@ MODEL_OPTIONS = {
     },
     "Gemini 2.5 Flash (Google)": {
         "provider": "google",
-        "model": "gemini-2.5-flash",
+        "model": "models/gemini-2.5-flash",
         "description": "빠른 응답, 비용 효율적"
     },
     "Gemini 2.5 Pro (Google)": {
         "provider": "google",
-        "model": "gemini-2.5-pro",
-        "description": "복잡한 추론 및 코딩 작업에 적합"
+        "model": "models/gemini-2.5-pro",
+        "description": "복잡한 추론 및 코딩 작업에 적합 (무료 티어 가능)"
     },
     "Gemini 3 Flash Preview (Google)": {
         "provider": "google",
-        "model": "gemini-3-flash-preview",
+        "model": "models/gemini-3-flash-preview",
         "description": "최신 모델, 향상된 멀티모달 기능"
     },
 }
